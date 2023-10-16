@@ -1,4 +1,6 @@
 <script>
+  import { build } from "vite";
+
     let date = new Date();
     let year = date.getFullYear();
     const SocialPlatforms = [
@@ -15,7 +17,6 @@
             link: "https://twitter.com/SatishP42242976",
         }
     ]
-
 
 </script>
 
