@@ -8,7 +8,7 @@
         },
         {
             name: "Instagram",
-            link: "",
+            link: "https://www.instagram.com/satees_prajapati/",
         },
         {
             name: "Twitter",
