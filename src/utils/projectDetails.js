@@ -1,37 +1,42 @@
 export const projects = [
-    {
-        img: "/chat.svg",
-        link: "https://github.com/Satish9047/gossip",
-        technology: "Next.js, MongoDB, Node.js, socket.io, express, tailwind, jsonwebtoken",
-        projectName: "Gossip App",
-        description: "Chat application,(Still builing) user can have a live chat ",
-    },
-    {
-        img: "/sales.svg",
-        link: "https://github.com/Satish9047/sales-management",
-        technology: "Node.js, express, jsonwebtoken",
-        projectName: "Sales Management API",
-        description: "api for managing sales. features: add, update, report making, delete order",
-    },
-    {
-        img: "/todo.svg",
-        link: "https://github.com/Satish9047/next-tailwind-todo",
-        technology: "Next.js, tailwind css",
-        projectName: "Todo-App",
-        description: " its the todo task manager (no database)",
-    },
-    {
-        img: "/portfolio.svg",
-        link: "https://github.com/Satish9047/personal-website",
-        technology: "html, css",
-        projectName: "Portfolio Website",
-        description: "This is my beginner level portfolio website.",
-    },
-    {
-        img: "/portfolio2.svg",
-        link: "",
-        technology: "svelte, tailwind, formsubmit, ",
-        projectName: "Portfolio Website intermediate",
-        description: "intermediate level portfoliowebsite",
-    }
-]
+  {
+    img: "/yelp-restaurant.png",
+    link: "https://github.com/Satish9047/Yelp-Restaurants",
+    technology: "React, PostgreSQL, Node.js, express, bootstrap",
+    projectName: "Yelp Restaurants",
+    description:
+      "Yelp Restaurants is a website that allows users to search for restaurants and provide reviews.",
+  },
+  {
+    img: "/Bookshare.png",
+    link: "https://github.com/Satish9047/book-sharing-website",
+    technology:
+      "Node.js, express, jsonwebtoken, bcrypt, PostgreSQL,Typescript, Prisma",
+    projectName: "Book Sharing App",
+    description:
+      "Bookshare app is a full stack web platform where users can post books and share them with other users.",
+  },
+  {
+    img: "/auth.jpg",
+    link: "https://github.com/Satish9047/MERN-Auth",
+    technology:
+      "React.js, tailwind css, node.js, express, jsonwebtoken, mongodb",
+    projectName: "Auth App",
+    description:
+      "Auth is the fullstack app, with the secure authentication.using JWT, access token and refresh token concept plus hashing ",
+  },
+  {
+    img: "/react.svg",
+    link: "https://satish9047.github.io/tailwind-projects/",
+    technology: "React, Tailwid",
+    projectName: "5 Frontend Projects",
+    description: "Frontend pratice projects.",
+  },
+  {
+    img: "/portfolio2.svg",
+    link: "",
+    technology: "svelte, tailwind, formsubmit, ",
+    projectName: "Portfolio Website intermediate",
+    description: "intermediate level portfoliowebsite",
+  },
+];
