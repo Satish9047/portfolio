@@ -14,7 +14,7 @@
             alt={project.projectName}
             class="px-4 py-1"/>
             <div class="flex flex-col">
-                <h1 class="text-2xl">{project.projectName}</h1>
+                <a href={project.link} target="_blank"><h1 class="text-2xl">{project.projectName}</h1></a>
                 <p class=" overflow-y-scroll h-20">
                 technology: {project.technology}<br>
                 description: {project.description}<br>

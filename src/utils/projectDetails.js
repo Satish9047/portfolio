@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     img: "/portfolio2.svg",
-    link: "",
+    link: "https://satees55.netlify.app",
     technology: "svelte, tailwind, formsubmit, ",
     projectName: "Portfolio Website intermediate",
     description: "intermediate level portfoliowebsite",
