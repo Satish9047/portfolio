@@ -7,15 +7,15 @@
 
     {#each projects as project}
     <div class=" mx-2 my-2 px-5 py-2 flex sm:flex-col justify-center items-center bg-gray-300 sm:w-3/4 max-w-screen-md">
-        <div class="flex flex-col items-center sm:flex-row text-justify w-full">
+        <div class="flex flex-col items-center sm:flex-row text-justify w-full no-scroll">
             <img src={project.img}
             height={150}
             width={100}
             alt={project.projectName}
             class="px-4 py-1"/>
-            <div class="flex flex-col">
+            <div class="flex flex-col no-scroll">
                 <a href={project.link} target="_blank"><h1 class="text-2xl">{project.projectName}</h1></a>
-                <p class=" overflow-y-scroll h-20">
+                <p class=" overflow-y-scroll h-20 no-scroll">
                 technology: {project.technology}<br>
                 description: {project.description}<br>
                 project link: <a href={project.link} target="_blank">{project.link}</a>   
