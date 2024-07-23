@@ -7,31 +7,31 @@
     const file = "CV-Satish Prajapati.pdf";
 
 </script>
-<div class="pt-0 mt-0 justify-center">
+<div class="justify-center pt-0 mt-0">
     <Navbar />
-    <div class="flex flex-col justify-center  items-center">
+    <div class="flex flex-col items-center justify-center">
         <img
             src="/graduate.webp"
             alt="graduate"
-            class=" h-96 w-screen object-cover"
+            class="object-cover w-screen  h-96"
         />
-    <div class="flex flex-col justify-center items-center">
-        <h1 class="text-2xl sm:text-5xl font-thin overflow-hidden">Welcome to My Portfolio Website</h1>
-        <h2 class="text-lg sm:text-2xl font-thin py-4">Hi, I am Satish Prajapati.<br> "A JavaScript developer"</h2>
-        <img src="/single-graduate.webp" alt="Satish"  class=" rounded-full w-3/5 my-2 sm:my-4"/>
+    <div class="flex flex-col items-center justify-center">
+        <h1 class="overflow-hidden text-2xl font-thin sm:text-5xl">Welcome to My Portfolio Website</h1>
+        <h2 class="py-4 text-lg font-thin sm:text-2xl">Hi, I am Satish Prajapati.<br> "A JavaScript developer"</h2>
+        <img src="/single-graduate.webp" alt="Satish"  class="w-3/5 my-2 rounded-full  sm:my-4"/>
     </div>
         <HomeFlex />
     </div>
-    <hr class="border my-4">
-    <div class="flex justify-center flex-col items-center">
+    <hr class="my-4 border">
+    <div class="flex flex-col items-center justify-center">
         
         <Expertise />
     </div>
     <hr>
-    <div class="flex flex-col justify-center items-center  m-1 p-2">
-        <h1 class="text-xl">CheckOut My CV</h1>
+    <div class="flex flex-col items-center justify-center p-2 m-1">
+        <h1 class="text-xl">Checkout my CV</h1>
         <a href={downloadUrl} download={file}>
-            <button class="p-1 px-2 my-4 bg-lime-600 hover:bg-lime-400 rounded-md">Download CV File</button>
+            <button class="p-1 px-2 my-4 rounded-md bg-lime-600 hover:bg-lime-400">Download CV File</button>
           </a>
     </div>
       
